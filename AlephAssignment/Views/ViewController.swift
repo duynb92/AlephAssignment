@@ -42,8 +42,8 @@ class ViewController: UIViewController {
     }
     
     func getProductsAndAnimate(url: String) {
-        let animations = [AnimationType.from(direction: .right, offset: UIScreen.main.bounds.size.width) ]
-        UIView.animate(views: self.colProducts.orderedVisibleCells.reversed(), animations: animations, reversed: true, initialAlpha: 1.0, animationInterval: 0.2, duration: 0.2, completion: {
+        let animations = [AnimationType.from(direction: .right, offset: UIScreen.main.bounds.size.width + 20) ]
+        UIView.animate(views: self.colProducts.orderedVisibleCells.reversed(), animations: animations, reversed: true, initialAlpha: 1.0, finalAlpha: 0.5,  duration: 0.2, options: .curveEaseOut, completion: {
             self.dataProvider.productManager.clearItems()
             self.colProducts.reloadData()
             
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
                         self.colProducts.reloadData()
                         self.colProducts.performBatchUpdates({
-                            UIView.animate(views: self.colProducts.orderedVisibleCells, animations: animations, initialAlpha: 1.0, animationInterval: 0.2, duration: 0.8, completion: {
+                            UIView.animateBounce(views: self.colProducts.orderedVisibleCells, animations: animations, initialAlpha: 1.0, animationInterval: 0.2, duration: 0.7, options: .curveEaseOut, usingSpringWithDamping: 0.65, initialSpringVelocity: 0, completion: {
                             })
                         }, completion: nil)
                     }

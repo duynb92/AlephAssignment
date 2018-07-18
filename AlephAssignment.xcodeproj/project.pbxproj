@@ -21,6 +21,7 @@
 		67801FB420FF90E600A3BADC /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67801FB320FF90E600A3BADC /* NetworkManagerTests.swift */; };
 		67801FB720FF95EA00A3BADC /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67801FB620FF95EA00A3BADC /* ProductManager.swift */; };
 		67801FB920FF960500A3BADC /* ProductDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67801FB820FF960500A3BADC /* ProductDataProvider.swift */; };
+		67801FC020FFC74400A3BADC /* UIView+AnimationBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67801FBF20FFC74400A3BADC /* UIView+AnimationBounce.swift */; };
 		C4E4641ADAD9CCBF0C047981 /* Pods_AlephAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471C31D52218D7745FDA209E /* Pods_AlephAssignmentTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		67801FB320FF90E600A3BADC /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		67801FB620FF95EA00A3BADC /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
 		67801FB820FF960500A3BADC /* ProductDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataProvider.swift; sourceTree = "<group>"; };
+		67801FBF20FFC74400A3BADC /* UIView+AnimationBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnimationBounce.swift"; sourceTree = "<group>"; };
 		99F1DE5B3EC54ACEA9AE1227 /* Pods-AlephAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlephAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlephAssignment/Pods-AlephAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		9EE1DF66E618C0A1F96125B8 /* Pods-AlephAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlephAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlephAssignment/Pods-AlephAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		DAECC18C41A73F29990D0D4C /* Pods_AlephAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlephAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +105,7 @@
 		673AAE9920FF6C5A003CA3FE /* AlephAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				67801FBE20FFC73100A3BADC /* Extensions */,
 				67801FB520FF95BE00A3BADC /* DataSources */,
 				673AAEC020FF7832003CA3FE /* Views */,
 				673AAEBB20FF6D84003CA3FE /* Services */,
@@ -167,6 +170,14 @@
 				67801FB820FF960500A3BADC /* ProductDataProvider.swift */,
 			);
 			path = DataSources;
+			sourceTree = "<group>";
+		};
+		67801FBE20FFC73100A3BADC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				67801FBF20FFC74400A3BADC /* UIView+AnimationBounce.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		98BA00BD5885F312D2321B00 /* Pods */ = {
@@ -416,6 +427,7 @@
 				67801FB920FF960500A3BADC /* ProductDataProvider.swift in Sources */,
 				67801FB720FF95EA00A3BADC /* ProductManager.swift in Sources */,
 				673AAE9B20FF6C5A003CA3FE /* AppDelegate.swift in Sources */,
+				67801FC020FFC74400A3BADC /* UIView+AnimationBounce.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
