@@ -5,13 +5,17 @@ PODS:
     - ObjectMapper (~> 3.0)
   - EasyNotificationBadge (1.1.3)
   - Kingfisher (4.8.0)
+  - Nimble (7.1.3)
   - ObjectMapper (3.2.0)
+  - Quick (1.3.1)
   - ViewAnimator (2.1.1)
 
 DEPENDENCIES:
   - AlamofireObjectMapper
   - EasyNotificationBadge
   - Kingfisher
+  - Nimble
+  - Quick
   - ViewAnimator
 
 SPEC CHECKSUMS:
@@ -19,9 +23,11 @@ SPEC CHECKSUMS:
   AlamofireObjectMapper: 5fafc816351cbbc0d486611aaeba7461c0cbad49
   EasyNotificationBadge: d7054b7980f36469bfca1624ff40426703a78ac5
   Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  Nimble: 2839b01d1b31f6a6a7777a221f0d91cf52e8e27b
   ObjectMapper: 5cccd2de6f253eda859df8116a5a554d9769e859
+  Quick: d17304d58d0d169dd0bd1c6e5c28e3318de32a1a
   ViewAnimator: 43c31539508d995ea2c5e98338211f7c009b358f
 
-PODFILE CHECKSUM: 41e86508580e5a95ed8f64a68e90cb7fe8478017
+PODFILE CHECKSUM: 683514be8704a1578b770d8a1f8b75120b4e8881
 
 COCOAPODS: 1.4.0

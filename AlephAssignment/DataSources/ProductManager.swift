@@ -22,8 +22,8 @@ class ProductManager {
         return nil
     }
     
-    func addItem(deal: Product) {
-        products.append(deal)
+    func addItem(product: Product) {
+        products.append(product)
     }
     
     func addItems(products: [Product]) {

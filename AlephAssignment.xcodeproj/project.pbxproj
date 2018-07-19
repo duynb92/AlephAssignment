@@ -13,7 +13,6 @@
 		673AAEA020FF6C5A003CA3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673AAE9E20FF6C5A003CA3FE /* Main.storyboard */; };
 		673AAEA220FF6C5C003CA3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673AAEA120FF6C5C003CA3FE /* Assets.xcassets */; };
 		673AAEA520FF6C5C003CA3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673AAEA320FF6C5C003CA3FE /* LaunchScreen.storyboard */; };
-		673AAEB020FF6C5C003CA3FE /* AlephAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AAEAF20FF6C5C003CA3FE /* AlephAssignmentTests.swift */; };
 		673AAEBD20FF6DEA003CA3FE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AAEBC20FF6DEA003CA3FE /* NetworkManager.swift */; };
 		673AAEBF20FF7773003CA3FE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AAEBE20FF7773003CA3FE /* Product.swift */; };
 		673AAEC520FF7874003CA3FE /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673AAEC320FF7874003CA3FE /* ProductCollectionViewCell.swift */; };
@@ -22,6 +21,8 @@
 		67801FB720FF95EA00A3BADC /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67801FB620FF95EA00A3BADC /* ProductManager.swift */; };
 		67801FB920FF960500A3BADC /* ProductDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67801FB820FF960500A3BADC /* ProductDataProvider.swift */; };
 		67801FC020FFC74400A3BADC /* UIView+AnimationBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67801FBF20FFC74400A3BADC /* UIView+AnimationBounce.swift */; };
+		67CA44AC2100DBE400DEE203 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CA44AB2100DBE400DEE203 /* ViewControllerTests.swift */; };
+		67CA44AE2100DE4100DEE203 /* ProductManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CA44AD2100DE4100DEE203 /* ProductManagerTests.swift */; };
 		C4E4641ADAD9CCBF0C047981 /* Pods_AlephAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471C31D52218D7745FDA209E /* Pods_AlephAssignmentTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +48,6 @@
 		673AAEA420FF6C5C003CA3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		673AAEA620FF6C5C003CA3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		673AAEAB20FF6C5C003CA3FE /* AlephAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlephAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		673AAEAF20FF6C5C003CA3FE /* AlephAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlephAssignmentTests.swift; sourceTree = "<group>"; };
 		673AAEB120FF6C5C003CA3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		673AAEBC20FF6DEA003CA3FE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		673AAEBE20FF7773003CA3FE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -57,6 +57,8 @@
 		67801FB620FF95EA00A3BADC /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
 		67801FB820FF960500A3BADC /* ProductDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataProvider.swift; sourceTree = "<group>"; };
 		67801FBF20FFC74400A3BADC /* UIView+AnimationBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AnimationBounce.swift"; sourceTree = "<group>"; };
+		67CA44AB2100DBE400DEE203 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		67CA44AD2100DE4100DEE203 /* ProductManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManagerTests.swift; sourceTree = "<group>"; };
 		99F1DE5B3EC54ACEA9AE1227 /* Pods-AlephAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlephAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlephAssignment/Pods-AlephAssignment.debug.xcconfig"; sourceTree = "<group>"; };
 		9EE1DF66E618C0A1F96125B8 /* Pods-AlephAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlephAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlephAssignment/Pods-AlephAssignment.release.xcconfig"; sourceTree = "<group>"; };
 		DAECC18C41A73F29990D0D4C /* Pods_AlephAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlephAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,9 +124,10 @@
 		673AAEAE20FF6C5C003CA3FE /* AlephAssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				673AAEAF20FF6C5C003CA3FE /* AlephAssignmentTests.swift */,
 				673AAEB120FF6C5C003CA3FE /* Info.plist */,
 				67801FB320FF90E600A3BADC /* NetworkManagerTests.swift */,
+				67CA44AB2100DBE400DEE203 /* ViewControllerTests.swift */,
+				67CA44AD2100DE4100DEE203 /* ProductManagerTests.swift */,
 			);
 			path = AlephAssignmentTests;
 			sourceTree = "<group>";
@@ -310,9 +313,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AlephAssignmentTests/Pods-AlephAssignmentTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -435,8 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67CA44AC2100DBE400DEE203 /* ViewControllerTests.swift in Sources */,
 				67801FB420FF90E600A3BADC /* NetworkManagerTests.swift in Sources */,
-				673AAEB020FF6C5C003CA3FE /* AlephAssignmentTests.swift in Sources */,
+				67CA44AE2100DE4100DEE203 /* ProductManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

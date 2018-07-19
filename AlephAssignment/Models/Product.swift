@@ -26,6 +26,12 @@ class Product : Mappable {
     var price: String?
     var imageUrl: String?
     
+    init(title: String?, price: String?, imageUrl: String?) {
+        self.title = title
+        self.price = price
+        self.imageUrl = imageUrl
+    }
+    
     required init?(map: Map) {
         
     }
